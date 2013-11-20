@@ -1,0 +1,147 @@
+body{
+  background-color: #ecf0f1;
+  color: rgba(0,0,0,0.85);
+  font-family: 'PT Sans', sans-serif;
+  }
+
+header{
+  background-color: rgba(22, 160, 133, 0.6);
+  padding-top: 2em;
+  padding-bottom: 1em;
+  text-align: center;
+  border-radius: 4.3px;
+  }
+
+#container{
+  font-family: 'PT Sans', sans-serif;
+}
+
+/*#left-bars{
+  float:left;
+  position: absolute;
+}*/
+
+#top-left-side-bar{
+  width: 33%;
+  float: left;
+  position: relative;
+  border-radius: 4.3px;
+  margin: 1em 0em;
+  background: #7f8c8d;
+  }
+
+
+#top-left-side-bar h3{
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  font-size: 2em;
+}
+
+
+#top-left-side-bar ul{
+  margin-left: -0.5em;
+  margin-top: 0.5em;
+}
+
+#contact-icons li{
+  display: inline;
+}
+
+
+#right-side-bar{
+  background-color: #7f8c8d;
+  width: 66%;
+  position:relative;
+  display: inline-block;
+  float: right;
+  margin-top: 1em;
+  border-radius: 4.5px;
+}
+
+/*#bottom-left-side-bar{
+  clear:both;
+}*/
+
+
+ul {
+  font-size: 1.2em;
+  list-style: none;
+  }
+
+h1 {                  
+  font-size: 4.5em;
+  color: rgba(0,0,0,0.85);
+  font-family: 'Cookie', cursive;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  }
+h2 {
+  font-size: 2em;
+  color: rgba(0,0,0,0.85);
+  font-family: 'Cookie', cursive;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  }
+h3 {
+  color: rgba(0,0,0,0.8);
+  font-size: 1.6em;
+  font-family: 'Cookie', cursive;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  }
+
+h4{
+  margin-top: 0em;
+  font-size: 1.3em;
+  display: inline;
+  margin-left: 0em;
+  margin-bottom: 0em;
+  font-family: 'Cookie', cursive;
+}
+
+a {
+  color: #ecf0f1;
+  text-decoration: none;
+  }
+
+img#portrait {
+  border-color: rgba(255, 255, 255, 0.85);
+  border-width: 0.6em;
+  border-radius: 6px;
+  border-style: solid;
+  }
+
+
+
+
+
+
+
+
+
+
+/*
+@media (max-width: 600px) {
+
+#top-left-side-bar{
+  border-radius: 4.3px;
+  width: 100;
+  display: block;
+  background: red;
+  }
+
+#right-side-bar{
+  background-color: #7f8c8d;
+  display: block;
+  margin-top: 1em;
+  border-radius: 4.5px;
+}
+
+#bottom-left-side-bar{
+  border-radius: 4.3px;
+  margin: 1em 0em;
+  float: left;
+  }
+}
+*/
