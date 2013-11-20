@@ -1,35 +1,40 @@
 body{
-  background-size: cover;
   background-color: #ecf0f1;
-  background-position: center;
-  font-family: 'PT Sans', sans-serif;
   color: #34495e;
+  font-family: 'PT Sans', sans-serif;
   }
 
 header{
   background-color: rgba(22, 160, 133, 0.6);
-  padding: 50 0 0 0;
-  background-size: cover;
+  padding-top: 2em;
+  padding-bottom: 1em;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 4.3px;
+  }
+
+#left-side-bar{
+  width: 30%;
+  float: left;
+  border-radius: 4.3px;
+  margin: 1em 0em;
+  background: rgba(0,0,0,0.5);
   }
 
 ul {
-  padding: 1em;
-  background: rgba(0,0,0,0.5);
   font-size: 1.2em;
+  list-style: none;
   }
 
 li {
-  display: inline;
-  padding: 0px 10px 0px 10px;
+  
   }
 
 h1 {                  
   font-size: 4.5em;
   color: rgba(0,0,0,0.85);
-  margin: 8px 0 0 3px;
   font-family: 'Cookie', cursive;
+  margin-top: 0em;
+  margin-bottom: 0em;
   }
 
 a {
@@ -37,20 +42,9 @@ a {
   text-decoration: none;
   }
 
-article{
-  max-width: 500px;
-  padding: 20px;
-  margin:0 auto;
-  }
-
-p {
-  border-radius: 6px;
-  }
-
 img {
   border-color: rgba(255, 255, 255, 0.85);
-  border-width: 10px;
-  border-radius: 10px;
+  border-width: 0.6em;
+  border-radius: 6px;
   border-style: solid;
-  margin: 35px 0 0 0;
   }
