@@ -18,13 +18,13 @@ header{
   height: 100%;
 }
 
-#left-bars{
+#left-bar{
   float:left;
   display: inline-block;
   width: 35%;
 }
 
-#top-left-side-bar{
+#contact-box{
   width: 100%;
   float: left;
   position: relative;
@@ -35,7 +35,7 @@ header{
   padding: 1em;
   }
 
-#second-left-side-bar{
+#education-box{
   display: block;
   width:100%;
   background: #7f8c8d;
@@ -45,7 +45,7 @@ header{
   padding: 1em;
 }
 
-#third-left-side-bar{
+#skills-box{
   display: block;
   width:100%;
   background: #7f8c8d;
@@ -55,7 +55,7 @@ header{
   border-radius: 4.3px;
 }
 
-#fourth-left-side-bar{
+#about-me-box{
   display: block;
   width:100%;
   background: #7f8c8d;
