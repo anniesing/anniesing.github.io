@@ -114,10 +114,10 @@ img#portrait {
 
 
 header span:first-of-type {
-  width: 30%;
+  width: 20%;
   float: left;
   margin-left: 15%;
-  /*margin: 0 auto;*/
+  margin-right: -20%
 }
 
 
