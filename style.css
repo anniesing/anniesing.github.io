@@ -100,6 +100,23 @@ h4{
   font-family: 'Cookie', cursive;
 }
 
+h5{
+  margin-top: 0.2%;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.job-duties{
+  margin-right: 1em;
+  margin-left: -1em;
+  margin-top: -1em;
+}
+
+.job-duties li{
+  list-style: circle;
+  font-size: 0.7em;
+  padding-top: 0.2em; 
+}
+
 a {
   color: #ecf0f1;
   text-decoration: none;
@@ -119,10 +136,6 @@ header span:first-of-type {
   margin-left: 15%;
   margin-right: -20%
 }
-
-
-
-
 
 
 
