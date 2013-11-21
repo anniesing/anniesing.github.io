@@ -14,35 +14,62 @@ header{
 
 #container{
   font-family: 'PT Sans', sans-serif;
+  float: left;
+  height: 100%;
 }
 
-/*#left-bars{
+#left-bars{
   float:left;
-  position: absolute;
-}*/
+  display: inline-block;
+  width: 35%;
+}
 
 #top-left-side-bar{
-  width: 33%;
+  width: 100%;
   float: left;
   position: relative;
   border-radius: 4.3px;
-  margin: 1em 0em;
+  margin-top: 1em;
   background: #7f8c8d;
+  display: block;
+  padding: 1em;
   }
 
+#second-left-side-bar{
+  display: block;
+  width:100%;
+  background: #7f8c8d;
+  margin-top: 1em;
+  float: left;
+  border-radius: 4.3px;
+  padding: 1em;
+}
+
+#third-left-side-bar{
+  display: block;
+  width:100%;
+  background: #7f8c8d;
+  margin-top: 1em;
+  float: left;
+  padding: 1em;
+  border-radius: 4.3px;
+}
+
+#fourth-left-side-bar{
+  display: block;
+  width:100%;
+  background: #7f8c8d;
+  margin-top: 1em;
+  float: left;
+  padding: 1em;
+  border-radius: 4.3px;
+}
 
 #top-left-side-bar h3{
-  margin-left: 1em;
-  margin-top: 1em;
   margin-bottom: 0em;
   font-size: 2em;
 }
 
-
-#top-left-side-bar ul{
-  margin-left: -0.5em;
-  margin-top: 0.5em;
-}
 
 #contact-icons li{
   display: inline;
@@ -51,18 +78,13 @@ header{
 
 #right-side-bar{
   background-color: #7f8c8d;
-  width: 66%;
+  width: 60%;
   position:relative;
   display: inline-block;
   float: right;
   margin-top: 1em;
   border-radius: 4.5px;
 }
-
-/*#bottom-left-side-bar{
-  clear:both;
-}*/
-
 
 ul {
   font-size: 1.2em;
