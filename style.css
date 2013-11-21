@@ -113,7 +113,12 @@ img#portrait {
   }
 
 
-
+header span:first-of-type {
+  width: 30%;
+  float: left;
+  margin-left: 15%;
+  /*margin: 0 auto;*/
+}
 
 
 
