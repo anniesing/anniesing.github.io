@@ -78,14 +78,27 @@ p {
   float:left;
   display: inline-block;
   width: 35%;
+  margin-left: 8%;
+  margin-bottom: 2em;
+}
+
+#right-side-bar{
+  width: 45%;
+  position:relative;
+  display: inline-block;
+  float: right;
+  margin-top: 1em;
+  margin-right: 8%;
+  border-radius: 4.5px;
 }
 
 #work-experience-box{
   float:left;
   margin-top: 3%;
-  width: 90%;
+  width: 96%;
   background: #7f8c8d;
   border-radius: 4.3px;
+  padding-right: 4%;
 }
 
 #work-experience-box h3{
@@ -101,11 +114,11 @@ p {
 
 #work-experience-box h5{
   font-size: 0.8em;
-  
+
 }
 
 #contact-box{
-  width: 90%;
+  width: 100%;
   float: left;
   border-radius: 4.3px;
   background: #7f8c8d;
@@ -160,6 +173,7 @@ p {
   margin-top: 1em;
   float: left;
   padding: 1em;
+  padding-bottom: 0em;
   border-radius: 4.3px;
 }
 
@@ -181,6 +195,7 @@ p {
 #skills-box ul{
   margin-top: -3%;
   margin-left: -8%;
+  margin-bottom: 0%
 }
 
 #skills-box li{
@@ -206,17 +221,6 @@ p {
 #contact-icons li{
   display: inline;
 }
-
-
-#right-side-bar{
-  width: 60%;
-  position:relative;
-  display: inline-block;
-  float: right;
-  margin-top: 1em;
-  border-radius: 4.5px;
-}
-
 
 #about-me-box h4{
   font-size: 1em;
