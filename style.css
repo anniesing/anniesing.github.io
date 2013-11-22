@@ -24,17 +24,33 @@ header{
   width: 35%;
 }
 
-#contact-box{
-  width: 100%;
-  float: left;
-  position: relative;
+#work-experience-box{
+  float:left;
+  margin-top: 3%;
+  width: 90%;
+  background: #7f8c8d;
   border-radius: 4.3px;
-  margin-top: 1em;
+}
+
+
+#contact-box{
+  width: 90%;
+  float: left;
+  border-radius: 4.3px;
   background: #7f8c8d;
   display: block;
-  padding: 1em;
   }
 
+#contact-box h3{
+  padding-left: 1em;
+  padding-top: 1em;
+  font-size: 2em;
+}
+
+#contact-box h4{
+  padding-left: 2em;
+  font-size: 1em;
+}
 #education-box{
   display: block;
   width:100%;
@@ -44,6 +60,27 @@ header{
   border-radius: 4.3px;
   padding: 1em;
 }
+
+#education-box h3{
+  font-size: 2.2em;
+}
+
+#education-box h4{
+  font-size: 1em;
+  font-weight: thick;
+}
+
+#education-box h5{
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-bottom: 0%;
+}
+
+#education-box p{
+  margin-top: 0%;
+  margin-bottom: 3%%;
+}
+
 
 #skills-box{
   display: block;
@@ -77,7 +114,6 @@ header{
 
 
 #right-side-bar{
-  background-color: #7f8c8d;
   width: 60%;
   position:relative;
   display: inline-block;
