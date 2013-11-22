@@ -12,6 +12,62 @@ header{
   border-radius: 4.3px;
   }
 
+
+ul {
+  font-size: 1.2em;
+  list-style: none;
+  }
+
+h1 {                  
+  font-size: 4em;
+  color: rgba(0,0,0,0.85);
+  font-family: 'Cookie', cursive;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  }
+h2 {
+  font-size: 2em;
+  color: rgba(0,0,0,0.85);
+  font-family: 'Cookie', cursive;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  }
+h3 {
+  color: rgba(0,0,0,0.8);
+  font-size: 1.6em;
+  font-family: 'Cookie', cursive;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  }
+
+h4{
+  margin-top: 0em;
+  font-size: 0.9em;
+  font-weight: thick;
+  display: inline;
+  margin-left: 0em;
+  margin-bottom: 0em;
+  font-family: 'PT Sans', sans-serif;
+}
+
+h5{
+  margin-top: 0.2%;
+  font-weight: thick;
+  font-size: 0.7em;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+a {
+  color: #ecf0f1;
+  text-decoration: none;
+  }
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 0.8em;
+}
+
 #container{
   font-family: 'PT Sans', sans-serif;
   float: left;
@@ -32,6 +88,21 @@ header{
   border-radius: 4.3px;
 }
 
+#work-experience-box h3{
+  font-size: 2.3em;
+}
+#work-experience-box h4{
+  font-size: 1em;
+}
+
+#work-experience-box li{
+  font-size: 0.76em;
+}
+
+#work-experience-box h5{
+  font-size: 0.8em;
+  
+}
 
 #contact-box{
   width: 90%;
@@ -92,6 +163,30 @@ header{
   border-radius: 4.3px;
 }
 
+#skills-box h3{
+  font-size: 2.2em;
+  margin-bottom: 0.4em;
+}
+
+#skills-box h4{
+  font-size: 1em;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: thick;
+}
+
+#skills-box p{
+  margin-top: 0%;
+}
+
+#skills-box ul{
+  margin-top: -3%;
+  margin-left: -8%;
+}
+
+#skills-box li{
+  font-size: 0.7em;
+}
+
 #about-me-box{
   display: block;
   width:100%;
@@ -122,49 +217,7 @@ header{
   border-radius: 4.5px;
 }
 
-ul {
-  font-size: 1.2em;
-  list-style: none;
-  }
 
-h1 {                  
-  font-size: 4em;
-  color: rgba(0,0,0,0.85);
-  font-family: 'Cookie', cursive;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  }
-h2 {
-  font-size: 2em;
-  color: rgba(0,0,0,0.85);
-  font-family: 'Cookie', cursive;
-  margin-top: 0.4em;
-  margin-bottom: 0.4em;
-  }
-h3 {
-  color: rgba(0,0,0,0.8);
-  font-size: 1.6em;
-  font-family: 'Cookie', cursive;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  }
-
-h4{
-  margin-top: 0em;
-  font-size: 0.9em;
-  font-weight: thick;
-  display: inline;
-  margin-left: 0em;
-  margin-bottom: 0em;
-  font-family: 'PT Sans', sans-serif;
-}
-
-h5{
-  margin-top: 0.2%;
-  font-weight: thick;
-  font-size: 0.7em;
-  font-family: 'PT Sans', sans-serif;
-}
 #about-me-box h4{
   font-size: 1em;
   font-weight: thick;
@@ -186,16 +239,6 @@ h5{
   padding-top: 0.2em; 
 }
 
-a {
-  color: #ecf0f1;
-  text-decoration: none;
-  }
-
-p {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 0.8em;
-
-}
 
 img#portrait {
   border-color: rgba(255, 255, 255, 0.85);
