@@ -12,6 +12,17 @@ header{
   border-radius: 4.3px;
   }
 
+#footer{
+  padding:1em;
+  width: 100%;
+  height: 3em;
+  float: left;
+  border-radius: 4.3px;
+  margin-bottom: 0.4em;
+  margin-top: 2em;
+  background-color: rgba(22, 160, 133, 0.6);
+}
+
 ul {
   font-size: 1.2em;
   list-style: none;
