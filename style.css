@@ -96,7 +96,7 @@ p {
   float:left;
   margin-top: 3%;
   width: 96%;
-  background: #7f8c8d;
+  background: #bdc3c7;
   border-radius: 4.3px;
   padding-right: 4%;
 }
@@ -121,7 +121,7 @@ p {
   width: 100%;
   float: left;
   border-radius: 4.3px;
-  background: #7f8c8d;
+  background: #bdc3c7;
   display: block;
   }
 
@@ -138,7 +138,7 @@ p {
 #education-box{
   display: block;
   width:100%;
-  background: #7f8c8d;
+  background: #bdc3c7;
   margin-top: 1em;
   float: left;
   border-radius: 4.3px;
@@ -169,7 +169,7 @@ p {
 #skills-box{
   display: block;
   width:100%;
-  background: #7f8c8d;
+  background: #bdc3c7;
   margin-top: 1em;
   float: left;
   padding: 1em;
@@ -205,7 +205,7 @@ p {
 #about-me-box{
   display: block;
   width:100%;
-  background: #7f8c8d;
+  background: #bdc3c7;
   margin-top: 1em;
   float: left;
   padding: 1em;
