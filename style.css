@@ -77,21 +77,77 @@ p {
 #left-bar{
   float:left;
   display: inline-block;
-  width: 35%;
-  margin-left: 8%;
+  width: 30%;
+  margin-left: 12%;
+  margin-right: 8%;
   margin-bottom: 2em;
 }
 
 #right-side-bar{
-  width: 45%;
+  width: 38%;
   position:relative;
   display: inline-block;
   float: right;
   margin-top: 1em;
-  margin-right: 8%;
+  margin-right: 12%;
   border-radius: 4.5px;
 }
 
+#contact-box{
+  width: 100%;
+  float: left;
+  border-radius: 4.3px;
+  background: #bdc3c7;
+  display: block;
+  }
+
+#contact-box h3{
+  padding-left: 1em;
+  padding-top: 1em;
+  font-size: 2em;
+}
+
+#contact-box h4{
+  padding-left: 2em;
+  font-size: 1em;
+}
+
+#projects-box {
+  background: #bdc3c7;
+  margin-top: 3%;
+  float: left;
+  width: 100%;
+  border-radius: 4.3px;
+}
+
+#projects-box h3{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.1em;
+}
+
+#projects-box a{
+  color: rgb(22, 160, 133);
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#projects-box p{
+  margin-top: 0.3em;
+  margin-bottom: 0em;
+}
+
+#cushion{
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+#fridge-friend-landing{
+  border-radius: 4.3px;
+  width: 100%;
+}
 #work-experience-box{
   float:left;
   margin-top: 3%;
@@ -117,24 +173,6 @@ p {
 
 }
 
-#contact-box{
-  width: 100%;
-  float: left;
-  border-radius: 4.3px;
-  background: #bdc3c7;
-  display: block;
-  }
-
-#contact-box h3{
-  padding-left: 1em;
-  padding-top: 1em;
-  font-size: 2em;
-}
-
-#contact-box h4{
-  padding-left: 2em;
-  font-size: 1em;
-}
 #education-box{
   display: block;
   width:100%;
@@ -230,6 +268,7 @@ p {
 #about-me-box p{
   margin-top: 0%;
 }
+
 
 .job-duties{
   margin-right: 1em;
