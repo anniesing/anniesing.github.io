@@ -7,11 +7,10 @@ body{
 header{
   background-color: rgba(22, 160, 133, 0.6);
   padding-top: 2em;
-  padding-bottom: 1em;
+  padding-bottom: 2.5em;
   text-align: center;
   border-radius: 4.3px;
   }
-
 
 ul {
   font-size: 1.2em;
