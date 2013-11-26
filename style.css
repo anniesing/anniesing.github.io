@@ -14,11 +14,12 @@ header{
 
 #footer{
   padding:1em;
-  width: 100%;
+  width: 98%;
   height: 3em;
   float: left;
   border-radius: 4.3px;
   margin-bottom: 0.4em;
+  margin-right: 0.4em;
   margin-top: 2em;
   background-color: rgba(22, 160, 133, 0.6);
 }
