@@ -1,0 +1,27 @@
+body {
+    font-size: 22px;
+}
+
+label {
+    display: inline-block;
+    margin-right: 4px;
+    min-width: 200px;
+}
+
+input {
+    font-size: 22px;
+}
+
+.section{
+    margin: 1rem;
+}
+
+.detail-label {
+    display: inline-block;
+    margin-right: 4px;
+    min-width: 200px;
+}
+
+button {
+    font-size: 22px;
+}

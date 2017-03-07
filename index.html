@@ -1,20 +1,67 @@
 <!doctype html>
 <meta charset="utf-8">
-<div>
-<label>Hours worked</label>
-<input id="hours">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
+</head>
+<body>
+<div class="section">
+    <div>
+        <label>Employee Name:</label>
+        <input id="employee-name">
+    </div>
+
+    <div>
+        <label>Employee SSN:</label>
+        <input id="employee-ssn">
+    </div>
+
+    <div>
+        <label>Pay Period:</label>
+        <input id="employee-pay-period" placeholder="MM/DD/YYYY-MM/DD/YYYY">
+    </div>
+
+    <div>
+        <label>Pay Date:</label>
+        <input id="employee-pay-date" placeholder="MM/DD/YYYY">
+    </div>
+
+    <div>
+        <label>Hours worked:</label>
+        <input id="hours">
+    </div>
+
+    <div>
+        <label>Hourly Wage:</label>
+        <input id="wages">
+    </div>
+
+    <div>
+        <label>Money Withheld:</label>
+        <input id="withheld">
+    </div>
 </div>
 
-<div>
-<label>Hourly Wage (i.e. $10/hour)</label>
-<input id="wages">
+<div class="section">
+    <button id="calculate">Calculate</button>
 </div>
 
-<div>
-<label>$$ Withheld for pay period</label>
-<input id="withheld">
+<div id="pay-details" class="section">
+    <div id="name"></div>
+    <div id="ssn"></div>
+    <div id="pay-period"></div>
+    <div id="pay-date"></div>
+    <div id="total-hours"></div>
+    <div id="hourly-wage"></div>
+
+    <div id="gross-pay"></div>
+    <div id="fed-witholding"></div>
+    <div id="fica"></div>
+    <div id="medicare"></div>
+    <div id="net-pay"></div>
 </div>
 
-<button id="calculate">Calculate</button>
-<div id="net-pay"></div>
+<div class="section">
+    <button id="print">Show Printable Pay Details</button>
+</div>
+</body>
 <script src="calculateNetPay.js"></script>
